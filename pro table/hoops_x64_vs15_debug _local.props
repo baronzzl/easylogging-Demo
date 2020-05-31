@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="hoops_x64_vs15_debug" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(HOOPS)\Dev_Tools\hoops_3dgs\source;$(HOOPS)\Dev_Tools\hoops_stream\source;$(HOOPS)\Dev_Tools\hoops_mvo\source;$(HOOPS)\Dev_Tools\hoops_mfc\source;$(HOOPS)\Dev_Tools\utility\source;$(HOOPS)\Dev_Tools\base_stream\source\stream_common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(HOOPS)\Dev_Tools\hoops_3dgs\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_stream\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_mfc\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\utility\lib\nt_x64_vc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>hoopsd.lib;hoops_mfcu_mgkd.lib;hoops_streamd.lib;hoops_mvo_mgkd.lib;hoops_utilsstatd_md.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

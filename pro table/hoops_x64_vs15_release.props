@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="hoops_x64_vs15_release" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(HOOPS)\Dev_Tools\hoops_3dgs\source;$(HOOPS)\Dev_Tools\hoops_stream\source;$(HOOPS)\Dev_Tools\hoops_mvo\source;$(HOOPS)\Dev_Tools\hoops_mfc\source;$(HOOPS)\Dev_Tools\utility\source;$(HOOPS)\Dev_Tools\base_stream\source\stream_common;$(HOOPS)\Dev_Tools\hoops_ooc\source;$(IncludePath)</IncludePath>
+    <LibraryPath>$(HOOPS)\Dev_Tools\hoops_3dgs\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_stream\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_mvo\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_mfc\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\utility\lib\nt_x64_vc14;$(HOOPS)\Dev_Tools\hoops_ooc\lib\nt_x64_vc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>hoops.lib;hoops_mfcu_mgk.lib;hoops_stream.lib;hoops_mvo_mgk.lib;hoops_utilsstat_md.lib;hoops_ooc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>IS_WIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

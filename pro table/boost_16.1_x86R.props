@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_PropertySheetDisplayName>boost_16.1_x86R</_PropertySheetDisplayName>
+    <IncludePath>C:\lib\boost_1_61\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\lib\boost_1_61\lib32-msvc-12.0;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>boost_chrono-vc120-mt-1_61.lib;boost_locale-vc120-mt-1_61.lib;boost_thread-vc120-mt-1_61.lib;boost_graph-vc120-mt-1_61.lib;boost_bzip2-vc120-mt-1_61.lib;boost_container-vc120-mt-1_61.lib;boost_system-vc120-mt-1_61.lib;boost_coroutine-vc120-mt-1_61.lib;boost_filesystem-vc120-mt-1_61.lib;boost_date_time-vc120-mt-1_61.lib;boost_zlib-vc120-mt-1_61.lib;boost_iostreams-vc120-mt-1_61.lib;boost_regex-vc120-mt-1_61.lib;boost_context-vc120-mt-1_61.lib;boost_atomic-vc120-mt-1_61.lib;boost_log_setup-vc120-mt-1_61.lib;libboost_system-vc120-mt-1_61.lib;boost_log-vc120-mt-1_61.lib;boost_math_tr1l-vc120-mt-1_61.lib;boost_math_c99-vc120-mt-1_61.lib;boost_math_c99f-vc120-mt-1_61.lib;libboost_exception-vc120-mt-1_61.lib;boost_math_c99l-vc120-mt-1_61.lib;boost_math_tr1-vc120-mt-1_61.lib;boost_math_tr1f-vc120-mt-1_61.lib;libboost_timer-vc120-mt-1_61.lib;libboost_chrono-vc120-mt-1_61.lib;boost_python-vc120-mt-1_61.lib;boost_program_options-vc120-mt-1_61.lib;boost_type_erasure-vc120-mt-1_61.lib;boost_unit_test_framework-vc120-mt-1_61.lib;boost_random-vc120-mt-1_61.lib;boost_signals-vc120-mt-1_61.lib;boost_prg_exec_monitor-vc120-mt-1_61.lib;boost_serialization-vc120-mt-1_61.lib;boost_wserialization-vc120-mt-1_61.lib;boost_timer-vc120-mt-1_61.lib;libboost_unit_test_framework-vc120-mt-1_61.lib;libboost_test_exec_monitor-vc120-mt-1_61.lib;boost_wave-vc120-mt-1_61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
